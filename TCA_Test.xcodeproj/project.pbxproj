@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5B2C9A58292C549900AE4007 /* TCA_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C9A57292C549900AE4007 /* TCA_TestApp.swift */; };
-		5B2C9A5A292C549900AE4007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C9A59292C549900AE4007 /* ContentView.swift */; };
+		5B2C9A5A292C549900AE4007 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C9A59292C549900AE4007 /* CounterView.swift */; };
 		5B2C9A5C292C549B00AE4007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2C9A5B292C549B00AE4007 /* Assets.xcassets */; };
 		5B2C9A5F292C549B00AE4007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2C9A5E292C549B00AE4007 /* Preview Assets.xcassets */; };
 		5B2C9A69292C549B00AE4007 /* TCA_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C9A68292C549B00AE4007 /* TCA_TestTests.swift */; };
 		5B2C9A73292C549C00AE4007 /* TCA_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C9A72292C549C00AE4007 /* TCA_TestUITests.swift */; };
 		5B2C9A75292C549C00AE4007 /* TCA_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C9A74292C549C00AE4007 /* TCA_TestUITestsLaunchTests.swift */; };
+		5B2C9A83292C554000AE4007 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 5B2C9A82292C554000AE4007 /* ComposableArchitecture */; };
+		5B2C9A85292C554000AE4007 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 5B2C9A84292C554000AE4007 /* Dependencies */; };
+		5B2C9A88292C555C00AE4007 /* TCACoordinators in Frameworks */ = {isa = PBXBuildFile; productRef = 5B2C9A87292C555C00AE4007 /* TCACoordinators */; };
+		5B2C9A8A292C6A2E00AE4007 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C9A89292C6A2E00AE4007 /* Todo.swift */; };
+		5B2C9A8C292C71F000AE4007 /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C9A8B292C71F000AE4007 /* Todos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		5B2C9A54292C549900AE4007 /* TCA_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2C9A57292C549900AE4007 /* TCA_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TestApp.swift; sourceTree = "<group>"; };
-		5B2C9A59292C549900AE4007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B2C9A59292C549900AE4007 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		5B2C9A5B292C549B00AE4007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B2C9A5E292C549B00AE4007 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B2C9A64292C549B00AE4007 /* TCA_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCA_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,8 @@
 		5B2C9A6E292C549C00AE4007 /* TCA_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCA_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2C9A72292C549C00AE4007 /* TCA_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TestUITests.swift; sourceTree = "<group>"; };
 		5B2C9A74292C549C00AE4007 /* TCA_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B2C9A89292C6A2E00AE4007 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		5B2C9A8B292C71F000AE4007 /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2C9A83292C554000AE4007 /* ComposableArchitecture in Frameworks */,
+				5B2C9A88292C555C00AE4007 /* TCACoordinators in Frameworks */,
+				5B2C9A85292C554000AE4007 /* Dependencies in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				5B2C9A57292C549900AE4007 /* TCA_TestApp.swift */,
-				5B2C9A59292C549900AE4007 /* ContentView.swift */,
+				5B2C9A59292C549900AE4007 /* CounterView.swift */,
+				5B2C9A89292C6A2E00AE4007 /* Todo.swift */,
+				5B2C9A8B292C71F000AE4007 /* Todos.swift */,
 				5B2C9A5B292C549B00AE4007 /* Assets.xcassets */,
 				5B2C9A5D292C549B00AE4007 /* Preview Content */,
 			);
@@ -143,6 +155,11 @@
 			dependencies = (
 			);
 			name = TCA_Test;
+			packageProductDependencies = (
+				5B2C9A82292C554000AE4007 /* ComposableArchitecture */,
+				5B2C9A84292C554000AE4007 /* Dependencies */,
+				5B2C9A87292C555C00AE4007 /* TCACoordinators */,
+			);
 			productName = TCA_Test;
 			productReference = 5B2C9A54292C549900AE4007 /* TCA_Test.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +232,10 @@
 				Base,
 			);
 			mainGroup = 5B2C9A4B292C549900AE4007;
+			packageReferences = (
+				5B2C9A81292C554000AE4007 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				5B2C9A86292C555C00AE4007 /* XCRemoteSwiftPackageReference "TCACoordinators" */,
+			);
 			productRefGroup = 5B2C9A55292C549900AE4007 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2C9A5A292C549900AE4007 /* ContentView.swift in Sources */,
+				5B2C9A5A292C549900AE4007 /* CounterView.swift in Sources */,
+				5B2C9A8A292C6A2E00AE4007 /* Todo.swift in Sources */,
 				5B2C9A58292C549900AE4007 /* TCA_TestApp.swift in Sources */,
+				5B2C9A8C292C71F000AE4007 /* Todos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 22112201;
 				DEVELOPMENT_ASSET_PATHS = "\"TCA_Test/Preview Content\"";
 				DEVELOPMENT_TEAM = R8V4BKKVQ5;
 				ENABLE_PREVIEWS = YES;
@@ -425,13 +448,17 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.markcloud.TCA-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,7 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 22112201;
 				DEVELOPMENT_ASSET_PATHS = "\"TCA_Test/Preview Content\"";
 				DEVELOPMENT_TEAM = R8V4BKKVQ5;
 				ENABLE_PREVIEWS = YES;
@@ -454,13 +481,17 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.markcloud.TCA-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -583,6 +614,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B2C9A81292C554000AE4007 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		5B2C9A86292C555C00AE4007 /* XCRemoteSwiftPackageReference "TCACoordinators" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/TCACoordinators.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B2C9A82292C554000AE4007 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B2C9A81292C554000AE4007 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		5B2C9A84292C554000AE4007 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B2C9A81292C554000AE4007 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
+		5B2C9A87292C555C00AE4007 /* TCACoordinators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B2C9A86292C555C00AE4007 /* XCRemoteSwiftPackageReference "TCACoordinators" */;
+			productName = TCACoordinators;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5B2C9A4C292C549900AE4007 /* Project object */;
 }
